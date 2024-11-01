@@ -18,3 +18,8 @@ textarea {
     border: 0;
     background-color: white;
 }
+
+.about {
+    width: 256px;
+    height: 256px;
+}

@@ -15,6 +15,10 @@ app.get("/", (req, res) => {
    res.render("index.ejs");
 });
 
+app.get("/about", (rreq, res) => {
+    res.render("about.ejs");
+});
+
 app.post("/submit", async (req, res) => {
     try {
        const result = await axios.get(API_URL + req.body.artist + "/" + req.body.title);
