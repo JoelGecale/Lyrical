@@ -1,0 +1,20 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header, footer {
+    background-color:rgb(165, 182, 141);
+    color: rgb(252, 250, 238);
+}
+
+.logo {
+    width: 96px;
+    height: 48px;
+}
+
+textarea {
+    border: 0;
+    background-color: white;
+}
